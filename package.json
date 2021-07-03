@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Thomas Weustenfeld",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "files": [
