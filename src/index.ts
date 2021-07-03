@@ -1,1 +1,1 @@
-export { default as evaluateIncludeStatements } from './traverse';
+export { default as optimizeQuery } from './traverse';
