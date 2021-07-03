@@ -6,6 +6,7 @@
   "license": "MIT",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "homepage": "https://github.com/tw00/graphql-optimize-query#readme",
   "files": [
     "dist"
   ],
