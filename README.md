@@ -1,5 +1,7 @@
 # graphql-optimize-query
 
+[![npm version](https://badge.fury.io/js/graphql-optimize-query.svg)](https://badge.fury.io/js/graphql-optimize-query)
+
 A lightweight library to optimize graphql queries by evaluating `@include` and `@skip` directives client-side.
 
 # Usage
