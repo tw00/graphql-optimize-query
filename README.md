@@ -4,12 +4,26 @@ A lightweight library to optimize graphql queries by evaluating `@include` and `
 
 # Usage
 
+Install graphql-optimize-query from npm with:
+
 ```bash
 npm install graphql-optimize-query
 ```
 
+Import with:
+
 ```js
-import { optimizeQuery } from 'graphql-optimize-query'
+const { optimizeQuery } = require('graphql-optimize-query')
+// or
+import { optimizeQuery } from 'graphql-optimize-query';
+```
+
+## Example
+
+```js
+const { print } = require('graphql');
+const gql = require('graphql-tag');
+const { optimizeQuery } = require('graphql-optimize-query');
 
 const query = gql`
   query GetUser($userID: ID!, $auth: Boolean!) {
